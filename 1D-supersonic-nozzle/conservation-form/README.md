@@ -5,4 +5,4 @@ This code reflects the theory and results provided in "Computational Fluid Dynam
 The code executes velocity, mach no, pressure and mass flow graphs at the outlet.
 
 
-![](Images/conservation_0.5c_31nx.jpg)   
+
