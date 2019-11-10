@@ -5,3 +5,6 @@
 5. The folder constant contains heatSource term (fvOptions), transport Parameters and Turbulence parameters.
 6. The folder postProcessing contains the Temparature probe values at different points of the simulations.
 7. The folder system contains the mesh, Schemes and Solutions.
+8. The residuals and probe_temp file contains the residual code and temparature proble code for gnuplot.
+9. The residuals and probe_temp in png file contains the graph.
+10. The file ".ogv" contains the simulation video from ParaView.
