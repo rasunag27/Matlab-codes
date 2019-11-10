@@ -8,3 +8,6 @@
 8. The residuals and probe_temp file contains the residual code and temparature proble code for gnuplot.
 9. The residuals and probe_temp in png file contains the graph.
 10. The file ".ogv" contains the simulation video from ParaView.
+11. Finally, the "log" file contains the simulation details.
+
+In order to run the simulation, please run blockMesh and checkMesh for checking mesh first. Secondly, type "Breastgland" to run the simulation. 
