@@ -1,0 +1,58 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 6-fa1285188035
+Exec   : gland
+Date   : Nov 11 2019
+Time   : 17:38:29
+Host   : "Spirit"
+PID    : 7201
+I/O    : uncollated
+Case   : /home/rasunag27/Technical_courses/Gland_laplace
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: No convergence criteria found
+
+Reading field T
+
+Reading transportProperties
+
+Reading diffusivity DT
+
+Reading density rho
+
+Reading specific heat c
+
+Reading Thermal Conductivity K
+
+Creating finite volume options from "constant/fvOptions"
+
+Selecting finite volume options model type scalarSemiImplicitSource
+    Source: heatSource
+    - selecting cells using cellZone gland
+    - selected 2500 cell(s) with volume 3.9752e-05
+
+Calculating temperature distribution
+
+Time = 1
+
+DICPCG:  Solving for T, Initial residual = 1, Final residual = 7.251e-07, No Iterations 51
+DICPCG:  Solving for T, Initial residual = 0.00122493, Final residual = 8.69613e-07, No Iterations 29
+DICPCG:  Solving for T, Initial residual = 1.09351e-05, Final residual = 9.56514e-07, No Iterations 13
+ExecutionTime = 0.04 s  ClockTime = 0 s
+
+End
+
